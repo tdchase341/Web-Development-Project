@@ -1,0 +1,124 @@
+html {
+    font-size: 10px;
+    height: 1100px;
+}
+  
+:root {
+    --pink: #E491E1;
+    --yellow: #F3E3B6;
+    --green: #8de3c9;
+    --lightGreen: #f5fcf4;
+    --blue: #06c0ee;
+}
+
+
+/*Formatting for page title*/
+.locationPageTitle h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--yellow);
+    font-family: 'Roboto';
+    font-size: 5em;
+    background-color: var(--pink);
+    border-radius: 30px;
+  }
+
+.locationPageTitle a {
+    display: block;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 650px;
+    color: #000000;
+    font-size: 2em;
+    padding: 2px;
+    border-radius: 30px;
+    text-decoration: underline overline;
+  
+  }
+
+  .locationPageTitle a:hover {
+    text-decoration: none;
+  }
+
+/*Formatting for google map iframe*/
+.map iframe {
+   margin-top: 10px;
+   display: block;
+   float: left;
+}
+
+/*Formatting for table with operation hours*/
+.operationHours {
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: center;
+    width: 490px;
+    height: 330px;
+    background-color: var(--pink);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    font-family: 'Roboto';
+    font-size: 2em;
+}
+
+.operationHours table {
+    width: 490px;
+    height: 270px;
+}
+
+.operationHours td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+}
+
+.operationHours .head {
+    background-color: var(--blue);
+    border-radius: 30px;
+    font-size: 3em;
+}
+
+
+/*Formatting for table with contact information*/
+.contactInformation {
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 490px;
+    height: 400px;
+    background-color: var(--lightGreen);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    font-family: 'Roboto';
+    font-size: 2em;
+}
+
+.contactInformation table {
+    width: 490px;
+    height: 310px;
+}
+
+.contactInformation td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+}
+
+.contactInformation td a {
+    color: #000000;
+}
+
+.contactInformation td a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.contactInformation .head {
+    background-color: var(--blue);
+    border-radius: 30px;
+    font-size: 2em;
+}

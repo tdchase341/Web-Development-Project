@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Author" content="Chase Marshall" />
+        <meta name="keywords" content="Pamelas Diner" />
+        <meta name="description" content="Pamelas Diner Website"/>
+        <link rel="stylesheet" type="text/css" href="Resources/css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="Resources/css/home.css">
+        <script src="Resources/js/jquery-3.6.0.min.js"></script>
+        <script src="Resources/js/main.js"></script>
+        <script src="Resources/js/slideshow.js"></script>
+        <title>Pamelas Diner</title>
+    </head>
+    <body>
+
+        <!--Navbar with Nav Links-->
+        <div id="navbar">
+            <nav>
+                <a href="index.html" class="icon"><img src="Resources/images/pamelaslogo1.jpg" width="80" height= "80" alt="Pamelas Logo"></a>
+                <div id="navbar_links">
+                    <a href="index.html" id="selected" class="nav_link">Home</a>
+                    <a href="menu.html" class="nav_link">Menu</a>
+                    <a href="locations.html" class="nav_link">Location & Times</a>
+                    <a href="whatEveryoneIsSaying.html" class="nav_link">What Everyone's Saying</a>
+                </div>
+            </nav>
+        </div>
+        <!--Container for the body content-->
+        <div id="bodyContent">
+            <!--Container to hold the tite of the page-->
+            <div class="titleName">
+                <div class="text">
+                <span style="--i:-4">P</span>
+                <span style="--i:-3">a</span>
+                <span style="--i:-4">m</span>
+                <span style="--i:-1">e</span>
+                <span style="--i:0">l</span>
+                <span style="--i:1">a</span>
+                <span style="--i:2">'</span>
+                <span style="--i:3">s</span>
+                </div>
+            </div>
+            <!-- Image Container -->
+            <div class="storefrontImageContainer">
+                <img src="Resources/images/locationPic.jpg" alt="storeLogo">
+            </div>
+            <!--Come visit us container-->
+            <div class="comeVisitUs">
+                <h1>Visit Us</h1>
+                <h3>Pamela's Diner Forbes Avenue</h3>
+                <a href="https://www.google.com/maps/dir//pamelas+diner+forbes+ave/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8834f229e57e54fb:0x85711e3bfcf4be29?sa=X&ved=2ahUKEwiq5L3u0enzAhX2HzQIHSX9AVwQ9Rd6BAhBEAQ">3703 Forbes Ave, Pittsburgh, PA 15213</a><br>
+                <a href="tel:+4126834066">(412)683-4066</a><br>
+                <input type=button class="button" onClick="location.href='locations.html'"
+                value='Location & Times'>
+            </div>
+            <!--Contact form Container-->
+            <div class="contactForm">
+                <h3>Join our Mailing List</h3>
+                <form action="mailto:info@pamelasdiner.com" method="post" enctype="text/plain" onsubmit="return validate();">
+                    <fieldset>
+
+                        <legend>Fill out the form below</legend>
+                            <label for="name"><strong>Name:</strong></label><br>
+                            <input type = "text" id = "name" name = "name" value = "YourName" required><br><br>
+                            <label for = "zipcode"><strong>Zipcode:</strong></label><br/>
+                            <input type = "text" id = "zipcode" name = "zipcode" value = "zipcode"><br><br>
+                            <label for = "uemail"><strong>Please provide your email address:</strong></label><br/>
+                            <input type = "email" id = "uemail" name = "uemail" placeholder="abc@defg.com" required><br/><br/>
+                            <label for = "subscribe"><strong>Subscribe to our newsletter!</strong></label><br/>
+                            <input type = "checkbox" id = "subscribe" name = "subscribe" value = "subscribe">
+                            <label for = "subscribe">Yes!</label><br/><br/>
+                        
+                    </fieldset>
+                    <fieldset>
+                    <input type ="image" src="Resources/images/submit.png" alt="Submit" name= "btnimage">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <h3>Check out our socials!</h3>
+            <a href="https://www.instagram.com/pamelasdiner/?hl=en"><img src="Resources/images/instagram.png"  alt="instagramLogo"></a>
+            <a href="https://www.facebook.com/pamelasdiner"><img src="Resources/images/facebook.png" alt="facebookLogo"></a>
+        </div>
+    </body>
+</html>

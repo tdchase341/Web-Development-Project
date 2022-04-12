@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Author" content="Chase Marshall" />
+        <meta name="keywords" content="Pamelas Diner" />
+        <meta name="description" content="Pamelas Diner Website"/>
+        <link rel="stylesheet" type="text/css" href="Resources/css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="Resources/css/menu.css"/>
+        <script src="Resources/js/jquery-3.6.0.min.js"></script>
+        <script src="Resources/js/main.js"></script>
+        <title>Pamelas Diner</title>
+    </head>
+    <body>
+        <!--Navbar with Nav links-->
+        <div id="navbar">
+            <nav>
+                <a href="index.html" class="icon"><img src="Resources/images/pamelaslogo1.jpg" width="80" height= "80" alt="Pamelas Logo"></a>
+                <div id="navbar_links">
+                    <a href="index.html" class="nav_link">Home</a>
+                    <a href="menu.html" id="selected" class="nav_link">Menu</a>
+                    <a href="locations.html" class="nav_link">Location & Times</a>
+                    <a href="whatEveryoneIsSaying.html" class="nav_link">What Everyone's Saying</a>
+                </div>
+            </nav>
+        </div>
+        <!--Container for the page content-->
+        <div id="bodyContent">
+            <!--Container for the headers of the page-->
+            <div class="menuPageTitle">
+                <h1>Check out our Menu</h1>
+                <h3>Take a quick peak at some of our favorite Items!</h3>
+            </div>
+            <!--Container for the slideshow-->
+            <div class="slidershow middle">
+                <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                <div class="slide s1">
+                    <img src="Resources/images/food1.jpg" alt="">
+                </div>
+                <!--Containers for all the slideshow images-->
+                <div class="slide">
+                    <img src="Resources/images/food3.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Resources/images/food4.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Resources/images/food5.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Resources/images/food6.jpeg" alt="">
+                </div>
+                </div>
+                <!--Bars at bottom of slideshow that allow for switching pictures-->
+                <div class="navigation">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                    <label for="r4" class="bar"></label>
+                    <label for="r5" class="bar"></label>
+                </div>
+            </div>
+            <!--Container for the menu buttons-->
+            <div class="menuOrderOnline">
+                <input type=button class="menuButton" onClick="location.href='https://www.pamelasdiner.com/_files/ugd/fa9060_d475c0e3d8b04eb29a188fbd4fc08e18.pdf'"
+                value='Menu'>
+                <input type=button class="orderOnlineButton" onClick="location.href='https://www.toasttab.com/pamela-s-diner-strip-district-60-21st-street/v3'"
+                value='Order Online'>
+                <label for="menuButton" class="menuSearch">Search the menu:</label><br>
+                <input type="search" class="menuSearch" id="menuSeach" name="q" style="width: 200px;">
+                <input type="button" class="menuSearchButton" value="Search">
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <h3>Check out our socials!</h3>
+            <a href="https://www.instagram.com/pamelasdiner/?hl=en"><img src="Resources/images/instagram.png" alt="instagramLogo"></a>
+            <a href="https://www.facebook.com/pamelasdiner"><img src="Resources/images/facebook.png" alt="facebookLogo"></a>
+        </div>   
+    </body>
+</html>

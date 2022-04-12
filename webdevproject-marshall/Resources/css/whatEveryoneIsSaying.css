@@ -1,0 +1,128 @@
+html {
+    font-size: 10px;
+    height: 1200px;
+}
+  
+:root {
+    --pink: #E491E1;
+    --yellow: #F3E3B6;
+    --green: #8de3c9;
+    --lightGreen: #f5fcf4;
+    --blue: #06c0ee;
+}
+
+.whatEveryoneIsSayingTitle h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--yellow);
+    font-family: 'Roboto';
+    font-size: 5em;
+    background-color: var(--pink);
+    border-radius: 30px;
+  }
+
+.takeACloserLook h3 {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--yellow);
+    font-family: 'Roboto';
+    font-size: 3em;
+    background-color: var(--pink);
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+img {
+    border-radius: 30px;
+}
+.takeACloserLook h3:hover {
+    color: var(--blue);
+}
+
+.reviewContainer {
+    display: block;
+}
+
+/*Image formatting*/
+
+.tripadvisorReviews {
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--pink);
+    border-radius: 30px;
+    float: left;
+    margin-left: 100px;
+}
+
+.googleReviews {
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--pink);
+    border-radius: 30px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.yelpReviews {
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--pink);
+    border-radius: 30px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.usefulInformation {
+    margin-top: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 490px;
+    height: 263px;
+    background-color: var(--lightGreen);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    font-family: 'Roboto';
+    font-size: 2em;
+}
+
+.usefulInformation table {
+    width: 490px;
+    height: 150px;
+}
+
+.usefulInformation td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+}
+
+.usefulInformation td a {
+    color: #000000;
+}
+
+.usefulInformation td a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.usefulInformation td a:visited {
+    color: var(--blue);
+}
+
+.usefulInformation .head {
+    background-color: var(--blue);
+    border-radius: 30px;
+    font-size: 2em;
+}
+
+
+
